@@ -69,6 +69,20 @@ const Ui: FunctionComponent = () => {
                         "GIS - ADMS Data synchronization and reconciliation",
                     type: "Products",
                 },
+                {
+                    title: "Evolve Data Model",
+                    description:
+                        "Evolve profile of the CIM data model",
+                    type: "Other",
+                    siteRelUrl: "cim/Evolve",
+                },
+                {
+                    title: "CIM Data Model",
+                    description:
+                        "CIM100 of the CIM data model",
+                    type: "Other",
+                    siteRelUrl: "cim/Model"
+                },
             ]}
         />
     );
