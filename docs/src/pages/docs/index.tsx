@@ -5,83 +5,77 @@ const Ui: FunctionComponent = () => {
     return (
         <Showcase
             title={"Docs"}
-            description={"Documentation and guides for Evolve Productss and SDKss"}
+            description={"Documentation for components of the Evolve platform"}
             items={[
                 {
                     title: "Evolve JVM",
                     description:
                         "The JVM SDK to communicate with the Energy Workbench Server",
-                    siteRelUrl: "evolve-sdk-jvm",
+                    siteRelUrl: "jvm-sdk",
                     repoUrl: "https://github.com/zepben/evolve-sdk-jvm",
-                    type: "SDKs",
+                    type: "SDK",
                 },
                 {
                     title: "Evolve C#",
                     description:
                         "C# SDK to communicate with the Energy Workbench Server",
                     repoUrl: "https://github.com/zepben/evolve-sdk-c#",
-                    type: "SDKs",
+                    type: "SDK",
                 },
                 {
                     title: "Evolve Python",
                     description:
                         "Python SDK to communicate with the Energy Workbench Server",
                     repoUrl: "https://github.com/zepben/evolve-sdk-py",
-                    type: "SDKs",
+                    type: "SDK",
                 },
                 {
                     title: "Energy Workbench Server",
                     description:
                         "Data platform for energy networks based on the Common Information Model. ",
                     repoUrl: "https://github.com/zepben/energy-workbench-server",
-                    apiUrl: "ewb/api",
-                    type: "Products",
+                    siteRelUrl: "energy-workbench-server",
+                    apiUrl: "energy-workbench-server/api",
+                    type: "Server",
+                },
+                {
+                    title: "Energy Network Server",
+                    description:
+                        "Headless network server",
+                    repoUrl: "https://github.com/zepben/ewb-network-server",
+                    siteRelUrl: "network-server",
+                    apiUrl: "network-server/api",
+                    type: "Server",
                 },
                 {
                     title: "PoF Extractor",
                     description:
                         "PoF DMS adapter to extract network into a format consumable by the Energy Workbench Server",
                     repoUrl: "https://github.com/zepben/pof-extractor",
-                    type: "Products",
+                    siteRelUrl: "pof-extractor",
+                    type: "Extractor",
                 },
                 {
                     title: "GIS Extractor",
                     description:
                         "GIS adapter to extract network into a format consumable by the Energy Workbench Server",
                     repoUrl: "https://github.com/zepben/gis-extractor",
-                    type: "Products",
+                    siteRelUrl: "gis-extractor",
+                    type: "Extractor",
                 },
                 {
-                    title: "EDNAR",
-                    description:
-                        "Application to support planner network access request workflow for distribution networks",
-                    type: "Products",
-                },
-                {
-                    title: "Planner Toolbox",
-                    description:
-                        "Provides tools for planning engineers to understand load patterns in the networks, build modes for load flow and fault level analysis for SINCAL and pandapower",
-                    type: "Products",
-                },
-                {
-                    title: "LASARUS",
-                    description:
-                        "GIS - ADMS Data synchronization and reconciliation",
-                    type: "Products",
-                },
-                {
-                    title: "Evolve Data Model",
+                    title: "Evolve Profile",
                     description:
                         "Evolve profile of the CIM data model",
-                    type: "Other",
                     siteRelUrl: "cim/Evolve",
+                    type: "Data Model",
                 },
                 {
-                    title: "CIM Data Model",
+                    title: "CIM Profile",
                     description:
-                        "CIM100 of the CIM data model",
-                    type: "Other",
-                    siteRelUrl: "cim/Model"
+                        "CIM100 profile of the CIM data model",
+                    siteRelUrl: "cim/Model",
+                    type: "Data Model"
                 },
             ]}
         />
