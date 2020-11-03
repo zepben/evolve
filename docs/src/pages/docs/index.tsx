@@ -43,24 +43,21 @@ const Ui: FunctionComponent = () => {
                     description:
                         "Headless network server",
                     repoUrl: "https://github.com/zepben/ewb-network-server",
-                    siteRelUrl: "network-server",
                     apiUrl: "network-server/api",
                     type: "Server",
                 },
                 {
-                    title: "PoF Extractor",
+                    title: "PoF Network Extractor",
                     description:
                         "PoF DMS adapter to extract network into a format consumable by the Energy Workbench Server",
-                    repoUrl: "https://github.com/zepben/pof-extractor",
-                    siteRelUrl: "pof-extractor",
+                    siteRelUrl: "pof-network-extractor",
                     type: "Extractor",
                 },
                 {
-                    title: "GIS Extractor",
+                    title: "GIS Network Extractor",
                     description:
                         "GIS adapter to extract network into a format consumable by the Energy Workbench Server",
-                    repoUrl: "https://github.com/zepben/gis-extractor",
-                    siteRelUrl: "gis-extractor",
+                    siteRelUrl: "gis-network-extractor",
                     type: "Extractor",
                 },
                 {
