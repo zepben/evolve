@@ -86,14 +86,14 @@ const Ui: FunctionComponent = () => {
                     title: "Evolve Profile",
                     description:
                         "Evolve profile of the CIM data model",
-                    siteRelUrl: "cim/Evolve",
+                    siteRelUrl: "cim/evolve",
                     type: "Data Models",
                 },
                 {
-                    title: "CIM Profile",
+                    title: "CIM100 Profile",
                     description:
                         "CIM100 profile of the CIM data model",
-                    siteRelUrl: "cim/Model",
+                    siteRelUrl: "cim/cim100",
                     type: "Data Models"
                 },
                 {
