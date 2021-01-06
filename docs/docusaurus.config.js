@@ -1,3 +1,5 @@
+const zepbenDocusaurusPreset = require("@zepben/docusaurus-preset");
+
 module.exports = {
     title: "Evolve",
     tagline: "Improved visibility of your electricity network",
@@ -8,6 +10,7 @@ module.exports = {
     organizationName: "zepben",
     projectName: "evolve",
     themeConfig: {
+        ...zepbenDocusaurusPreset.defaultThemeConfig,
         colorMode: {
             defaultMode: "light",
             disableSwitch: false,
@@ -45,16 +48,7 @@ module.exports = {
             style: "dark",
             links: [],
             copyright: `Copyright © ${new Date().getFullYear()} Zeppelin Bend Pty. Ltd.`,
-        },
-        googleAnalytics: {
-            trackingID: "UA-81287323-1",
-            anonymizeIP: false,
-        },
-        algolia: {
-            apiKey: "bd9b85d42d37ebf66b352f07513f4d6a",
-            indexName: "evolve-docs",
-            appId: "IU0L20J0JX"
-        },
+        }
     },
     presets: [
         [

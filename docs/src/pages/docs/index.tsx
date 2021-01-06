@@ -83,6 +83,13 @@ const Ui: FunctionComponent = () => {
                     type: "Data Processors",
                 },
                 {
+                    title: "Energy Workbench Bundle",
+                    description:
+                        "Bundle that contains all the tools needed to setup a workbench",
+                    siteRelUrl: "ewb-bundle",
+                    type: "Bundles"
+                },
+                {
                     title: "Evolve Profile",
                     description:
                         "Evolve profile of the CIM data model",
@@ -90,9 +97,9 @@ const Ui: FunctionComponent = () => {
                     type: "Data Models",
                 },
                 {
-                    title: "CIM100 Profile",
+                    title: "CIM100 Data Model",
                     description:
-                        "CIM100 profile of the CIM data model",
+                        "CIM100 data model",
                     siteRelUrl: "cim/cim100",
                     type: "Data Models"
                 },
@@ -101,13 +108,6 @@ const Ui: FunctionComponent = () => {
                     description:
                         "Exporter to create SINCAL models using the network from DMS or GIS",
                     siteRelUrl: "sincal-exporter",
-                    type: "SINCAL"
-                },
-                {
-                    title: "Smart Load Database Creator",
-                    description:
-                        "Converts a GIS export network data model to a SmartLoad enabled model",
-                    siteRelUrl: "smart-load-database-creator",
                     type: "SINCAL"
                 },
                 {
