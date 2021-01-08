@@ -1,0 +1,63 @@
+{
+  "index_name": "zepben-docs",
+  "start_urls": [
+    {
+      "url": "https://zepben.github.io/evolve/docs/cim/",
+      "selectors_key": "cim"
+    },
+    {
+      "url": "https://zepben.github.io/evolve/docs/"
+    }
+  ],
+  "selectors": {
+    "default": {
+      "lvl0": "head title",
+      "lvl1": {
+        "selector": "(//a[contains(@class, 'menu__link') and contains(@class, 'menu__link--active') and contains(@class,  'active')])[1]",
+        "global": true,
+        "type": "xpath"
+      },
+      "lvl2": "article h3",
+      "text": "article li, table td"
+    },
+    "cim": {
+      "lvl0": {
+        "selector": "(//a[contains(@class, 'menu__link') and contains(@class, 'menu__link--active') and contains(@class,  'active')])[1]",
+        "global": true,
+        "type": "xpath"
+      },
+      "lvl1": "article h1",
+      "lvl2": "article h3",
+      "text": "article li, table td"
+    }
+  },
+  "strip_chars": " .,;:#",
+  "custom_settings": {
+    "separatorsToIndex": "_",
+    "attributesForFaceting": ["version", "type", "docusaurus_tag"],
+    "attributesToRetrieve": [
+      "hierarchy",
+      "content",
+      "anchor",
+      "url",
+      "url_without_anchor",
+      "type"
+    ]
+  },
+  "sitemap_urls": [
+    "https://zepben.github.io/evolve/docs/cim/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/jvm-sdk/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/python-sdk/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/energy-workbench-server/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/network-server/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/ewb-web-client/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/pof-network-extractor/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/gis-network-extractor/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/load-aggregator/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/load-processor/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/weather-processor/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/ewb-bundle/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/sincal-exporter/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/smart-load-plugin/sitemap.xml"
+  ]
+}
