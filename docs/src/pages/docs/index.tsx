@@ -41,6 +41,13 @@ const Ui: FunctionComponent = () => {
                     type: "Servers",
                 },
                 {
+                    title: "PoF Historian Server",
+                    description:
+                        "Provides access to PoF Historian data",
+                    siteRelUrl: "pof-historian",
+                    type: "Servers",
+                },
+                {
                     title: "Energy Workbench Web Client",
                     description:
                         "UI Client to view load profiles, load analysis and geographic view of the network",
@@ -102,6 +109,13 @@ const Ui: FunctionComponent = () => {
                         "CIM100 data model",
                     siteRelUrl: "cim/cim100",
                     type: "Data Models"
+                },
+                {
+                    title: "Feeder Load Analysis",
+                    description:
+                        "Runs load analysis on feeder segments",
+                    siteRelUrl: "feeder-load-analysis",
+                    type: "Tools"
                 },
                 {
                     title: "SINCAL Exporter",
