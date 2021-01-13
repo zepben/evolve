@@ -58,6 +58,8 @@
     "https://zepben.github.io/evolve/docs/weather-processor/sitemap.xml",
     "https://zepben.github.io/evolve/docs/ewb-bundle/sitemap.xml",
     "https://zepben.github.io/evolve/docs/sincal-exporter/sitemap.xml",
-    "https://zepben.github.io/evolve/docs/smart-load-plugin/sitemap.xml"
+    "https://zepben.github.io/evolve/docs/smart-load-plugin/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/feeder-load-analysis/sitemap.xml",
+    "https://zepben.github.io/evolve/docs/pof-historian/sitemap.xml"
   ]
 }

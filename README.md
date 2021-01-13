@@ -23,3 +23,7 @@ docker run -it --env-file=.env -e "CONFIG=$(cat ./search-config.json | jq -r tos
 ```
 
 For more info about running the crawler refer to this [link](https://docsearch.algolia.com/docs/run-your-own).
+
+### Adding product links
+Adding links to products/services requires updating the algolia search config with links to product documentation sitemaps.
+An entry needs to be added to the `sitemap_urls` in the [config](./search-config.json) file.
