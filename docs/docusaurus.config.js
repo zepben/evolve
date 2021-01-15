@@ -52,6 +52,9 @@ module.exports = {
         algolia: {
             ...zepbenDocusaurusPreset.defaultThemeConfig.algolia,
             contextualSearch: false,
+            searchParameters: {
+                facetFilters: ["docusaurus_tag:docs-default-current"]
+            }
         },
         metadatas: [{name: 'docsearch:project', content: 'evolve'}],
     },
