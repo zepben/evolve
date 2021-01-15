@@ -29,7 +29,6 @@ const Ui: FunctionComponent = () => {
                         "Data platform for energy networks based on the Common Information Model. ",
                     repoUrl: "https://github.com/zepben/energy-workbench-server",
                     siteRelUrl: "energy-workbench-server",
-                    apiUrl: "energy-workbench-server/api",
                     type: "Servers",
                 },
                 {
@@ -37,7 +36,7 @@ const Ui: FunctionComponent = () => {
                     description:
                         "Headless network server",
                     repoUrl: "https://github.com/zepben/ewb-network-server",
-                    apiUrl: "network-server/api",
+                    siteRelUrl: "network-server",
                     type: "Servers",
                 },
                 {

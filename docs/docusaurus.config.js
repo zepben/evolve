@@ -48,7 +48,12 @@ module.exports = {
             style: "dark",
             links: [],
             copyright: `Copyright © ${new Date().getFullYear()} Zeppelin Bend Pty. Ltd.`,
-        }
+        },
+        algolia: {
+            ...zepbenDocusaurusPreset.defaultThemeConfig.algolia,
+            contextualSearch: false,
+        },
+        metadatas: [{name: 'docsearch:project', content: 'evolve'}],
     },
     presets: [
         [

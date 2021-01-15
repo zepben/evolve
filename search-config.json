@@ -34,7 +34,7 @@
   "strip_chars": " .,;:#",
   "custom_settings": {
     "separatorsToIndex": "_",
-    "attributesForFaceting": ["version", "type", "docusaurus_tag"],
+    "attributesForFaceting": ["version", "type", "docusaurus_tag", "project", "language"],
     "attributesToRetrieve": [
       "hierarchy",
       "content",
