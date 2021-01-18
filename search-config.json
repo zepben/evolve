@@ -12,12 +12,9 @@
   "selectors": {
     "default": {
       "lvl0": "head title",
-      "lvl1": {
-        "selector": "(//a[contains(@class, 'menu__link') and contains(@class, 'menu__link--active') and contains(@class,  'active')])[1]",
-        "global": true,
-        "type": "xpath"
-      },
-      "lvl2": "article h3",
+      "lvl1": "article h1",
+      "lvl2": "article h2",
+      "lvl3": "article h3",
       "text": "article li, table td"
     },
     "cim": {
