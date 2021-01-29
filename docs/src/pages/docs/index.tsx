@@ -49,6 +49,13 @@ const Ui: FunctionComponent = () => {
                     type: "Servers",
                 },
                 {
+                    title: "Evolve App Server",
+                    description:
+                    "Server that provides authentication, user data, and other app data to an Evolve client, while acting as a gateway for other evolve services",
+                    siteRelUrl: "evolve-app-server",
+                    type: "Servers",
+                },
+                {
                     title: "Energy Workbench Web Client",
                     description:
                         "Web app to view load profiles, load analysis and geographic views of the network hosted by the Energy Workbench.",
