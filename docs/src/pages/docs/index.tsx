@@ -119,6 +119,13 @@ const Ui: FunctionComponent = () => {
                     type: "Data Models"
                 },
                 {
+                    title: "IEEE 2030.5 Data Model",
+                    description:
+                        "The complete IEEE 2030.5 data model.",
+                    siteRelUrl: "2030-5",
+                    type: "Data Models"
+                },
+                {
                     title: "Feeder Load Analysis",
                     description:
                         "Runs load analysis of feeder segments on network models provided by the Energy Workbench.",
